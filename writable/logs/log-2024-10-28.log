@@ -1,0 +1,138 @@
+CRITICAL - 2024-10-28 02:16:21 --> ErrorException: include(templates/nav.php): Failed to open stream: No such file or directory
+[Method: POST, Route: admin/login]
+in APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php on line 34.
+ 1 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templates/nav.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php', 34)
+ 2 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Admin_Dashboard_Ultrakonstruct', [], true)
+ 6 APPPATH\Controllers\AuthController.php(22): view('home/Admin_Dashboard_Ultrakonstruct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 02:20:12 --> ErrorException: include(templates/nav.php): Failed to open stream: No such file or directory
+[Method: POST, Route: admin/login]
+in APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php on line 34.
+ 1 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templates/nav.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php', 34)
+ 2 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Admin_Dashboard_Ultrakonstruct', [], true)
+ 6 APPPATH\Controllers\AuthController.php(22): view('home/Admin_Dashboard_Ultrakonstruct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 02:20:32 --> ErrorException: include(templates/nav.php): Failed to open stream: No such file or directory
+[Method: POST, Route: admin/login]
+in APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php on line 34.
+ 1 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templates/nav.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php', 34)
+ 2 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Admin_Dashboard_Ultrakonstruct', [], true)
+ 6 APPPATH\Controllers\AuthController.php(22): view('home/Admin_Dashboard_Ultrakonstruct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 02:24:52 --> ParseError: Unclosed '{' on line 8
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\AuthController.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 02:31:04 --> ErrorException: include(templates/nav.php): Failed to open stream: No such file or directory
+[Method: POST, Route: admin/login]
+in APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php on line 34.
+ 1 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templates/nav.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php', 34)
+ 2 APPPATH\Views\home\Admin_Dashboard_Ultrakonstruct.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\home\\Admin_Dashboard_Ultrakonstruct.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Admin_Dashboard_Ultrakonstruct', [], true)
+ 6 APPPATH\Controllers\AuthController.php(23): view('home/Admin_Dashboard_Ultrakonstruct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->loginHandler()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 02:37:06 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\AuthController.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 02:37:17 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\AuthController.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 03:08:01 --> ErrorException: include(templates/nav.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin/login]
+in APPPATH\Views\backend\pages\auth\login.php on line 34.
+ 1 APPPATH\Views\backend\pages\auth\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templates/nav.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\backend\\pages\\auth\\login.php', 34)
+ 2 APPPATH\Views\backend\pages\auth\login.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\backend\\pages\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(17): view('backend/pages/auth/login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->loginForm()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 03:08:57 --> ErrorException: include(templates/nav.php): Failed to open stream: No such file or directory
+[Method: GET, Route: admin/login]
+in APPPATH\Views\backend\pages\auth\login.php on line 34.
+ 1 APPPATH\Views\backend\pages\auth\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templates/nav.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\backend\\pages\\auth\\login.php', 34)
+ 2 APPPATH\Views\backend\pages\auth\login.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Views\\backend\\pages\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('backend/pages/auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(17): view('backend/pages/auth/login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->loginForm()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-28 08:19:12 --> ParseError: syntax error, unexpected token "{", expecting ")"
+[Method: GET, Route: admin/login]
+in APPPATH\Controllers\AuthController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\UWSI_System_Lobos\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
